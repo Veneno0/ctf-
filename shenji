@@ -3,8 +3,8 @@ __author__ = 'Ven'
 #Date:2014.6.5
 #检测修改过的文件
 import os,sys,hashlib,datetime
-global_DirOld = "/tmp/website-oringin"
-global_DirNew = "/media/nlfox233/Ubuntu 14.04.3 LTS amd64/website"
+global_DirOld = "/old"
+global_DirNew = "/new"
 global_FilesList = []
 #输入要比对的文件路径
 
