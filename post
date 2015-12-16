@@ -1,0 +1,10 @@
+import requests
+def post_flag(flag):
+    body = {'canshu' : 'value'}
+    r = requests.post("url", data=body)
+    print r.text
+    +-s = r.text.split('"')
+    print(s[7].encode("utf-8").decode('unicode_escape'))
+    #print s[7]
+if __name__ == '__main__':
+    post_answer('1')
